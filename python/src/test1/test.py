@@ -9,6 +9,7 @@ Created on 2017年12月4日
 import sys
 from sys import argv, path
 
+print('\n----------------------------test -------------------------------\n')
 # 我是注释
 if True:
     print("True", end=" ")
@@ -44,5 +45,4 @@ if cc == '1':
     sys.stdout.write('1' + '\n')
 elif cc == '2':
     sys.stdout.write('2' + '\n')
-tinydict={'1':'dasdsa','2':'dasda'}
-print(tinydict['1'])
+
